@@ -15,7 +15,7 @@ class driver {
         System.out.println();
         list = PopulateList(); // Prompting the user to populate the list once again
         System.out.print("Removing backwards: ");
-        while(!list.isEmpty()) { // Printign the node and then deleting it from the list from the back
+        while(!list.isEmpty()) { // Printing the node and then deleting it from the list from the back
             System.out.print(list.getLastValue() + " ");
             list.removeLast();
         }
